@@ -64,7 +64,7 @@ align-items: center;
     background-color: rgb(255, 255, 255);
     font-weight: bold;
     color: darkorange;
-    padding: 7px 20px;cvcxdsaz
+    padding: 7px 20px;
     border-radius: 5px;
     border-color: darkorange;
     border: 1;
@@ -202,4 +202,79 @@ align-items: center;
     font-size: 14px;
     font-weight: 300;
     font-family: "Poppins", sans-serif; 
+}
+/* Resume page */
+
+
+.resume{
+    border-radius: 10px;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0px 150px;
+    text-align: center;
+    margin-top: 0;   
+}
+.resume-container{
+    display: flex;
+    gap: 25px;
+}
+.section-title1{
+    text-align: center;
+    font-family: "Poppins", sans-serif; 
+    font-size: 30px;
+    font-weight: 600;
+}
+.resume-column-title{
+    text-align: left;
+    font-family: "Poppins", sans-serif; 
+    color: rgb(74, 74, 74);
+}
+.experience{
+    font-family: "Poppins", sans-serif; 
+    color: rgb(74, 74, 74);
+}
+.experience-title{
+    text-align: left;
+}
+.experience-sub-title{
+    text-align: left;
+}
+.experience-description{
+    text-align: left;
+}
+.button5{
+    background-color: darkorange;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+/* Footer start */
+
+.footer-bg{
+    background-color: rgb(252, 247, 231);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 90px 150px;
+    text-align: center;
+    margin-top: 140px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input [type="text"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
 }
