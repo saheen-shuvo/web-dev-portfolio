@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Nav Styles */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+#shuvo{
+    font-family: "Kanit", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 35px;
+        margin-left: 130px;
+}
+.v{color: darkorange;
+
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+ul li a{
+    text-decoration: none;
+ 
+}
+nav ul{
+display: flex;
+align-items: center;
+}
+.dark-text{
+    color: rgb(18, 15, 15);
+}
+.button1{
+    background-color: darkorange;
+    font-weight: bold;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.button3{
+    background-color: darkorange;
+    font-weight: bold;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.button2{
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    color: darkorange;
+    padding: 7px 20px;cvcxdsaz
+    border-radius: 5px;
+    border-color: darkorange;
+    border: 1;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 40px 0 230px;
+    align-items: center;
+}
+.banner-greetings{
+ font-size: 35px;
+ font-weight: 400;   
+ font-family: "Poppins", sans-serif;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-name{
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+.banner-description{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+.dp{
+    width: 400px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.button23{
+    display: flex;
+    gap: 15px;
+}
+.header{
+    background-image: url(../style/developer.png), url(../style/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: rgb(252, 247, 231);
+}
+/* About Me Section */
+
+.about{
+    background-color: rgb(252, 247, 231);
+    border-radius: 10px;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 90px 150px;
+    text-align: center;
+    margin-top: 140px;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif; 
+}
+.section-description{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif; 
+    color: rgb(44, 44, 44);
+    text-align: justify;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-family: "Poppins", sans-serif; 
+}
+.item-description{
+    font-weight: 650;
+    font-family: "Poppins", sans-serif; 
+}
+
+/* What I Do Section */
+
+
+
+.section-title2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif; 
+    text-align: center;
+}
+.section-description2{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif; 
+    color: rgb(44, 44, 44);
+    text-align: justify;
+    text-align: center;
+}
+
+/* Skills Section */
+
+
+.skills{
+    border-radius: 10px;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 0;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgb(241, 241, 241);
+}
+.skill-title{
+    text-align: left;
+    font-family: "Poppins", sans-serif; 
+    font-weight: bold;
+    color: black;
+
+}
+.logo{
+    display: flex;
+    justify-content: left;
+}
+.skill-description{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif; 
+}
