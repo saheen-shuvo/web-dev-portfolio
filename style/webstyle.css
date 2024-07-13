@@ -336,7 +336,7 @@ footer input [type="text"]{
 /* For Small Devices */
 
 @media screen and (max-width:576px) {
-    .skills-container,  .resume-container, .footer-bg, .about-items{
+    .skills-container,  .resume-container, .footer-bg, .about-items, nav, .banner{
         flex-direction: column;
     }
     .skills, .resume, .footer-bg, .about{
@@ -352,5 +352,30 @@ footer input [type="text"]{
     }
     .about-item{
         padding-top: 8px;
+    }
+    #shuvo{
+        margin-left: 0;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner{
+        margin: 0;
+        margin-left: 10px;
+    }
+    .dp{
+        width: 100%;
+    }
+    nav ul{
+        margin-left: 20px;
+    }
+    .button1{
+        margin-left: 20px;
+    }
+    .button3{
+        margin-left: 20px;
+    }
+    .button23{
+        gap: 50px;
     }
 }
