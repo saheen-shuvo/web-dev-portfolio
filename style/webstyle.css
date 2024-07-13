@@ -193,7 +193,6 @@ align-items: center;
     font-family: "Poppins", sans-serif; 
     font-weight: bold;
     color: black;
-
 }
 .logo{
     display: flex;
@@ -324,4 +323,34 @@ footer input [type="text"]{
 }
 .contact-instruction{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/* Responsive Media Query */
+
+.hide{
+    display: none;
+}
+
+/* For Small Devices */
+
+@media screen and (max-width:576px) {
+    .skills-container,  .resume-container, .footer-bg, .about-items{
+        flex-direction: column;
+    }
+    .skills, .resume, .footer-bg, .about{
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }   
+    .footer-column{
+        width: 100%;
+    }
+    .namebox, .emailbox, .messagebox{
+    padding: 0;
+    }
+    .about-item{
+        padding-top: 8px;
+    }
 }
